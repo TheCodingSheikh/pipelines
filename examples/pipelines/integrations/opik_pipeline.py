@@ -21,7 +21,7 @@ import requests
 import opik
 
 os.environ["OPIK_BASE_URL"] = "http://opik-frontend:5173/api"
-opik.configure(use_local=False)
+# opik.configure(use_local=False)
 
 class Pipeline:
     class Valves(BaseModel):
